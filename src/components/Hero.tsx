@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="pt-20 min-h-[calc(100vh-5rem)] flex items-center px-6">
+    <section className="pt-24 md:pt-40 min-h-[calc(100vh-5rem)] flex items-center px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Text */}
         <motion.div
