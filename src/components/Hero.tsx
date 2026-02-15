@@ -19,7 +19,7 @@ export default function Hero() {
             Timeless style.
           </h1>
 
-          <p className="mt-5 text-gray-600 text-base sm:text-lg max-w-md">
+          <p className="mt-5 text-gray-700 text-base sm:text-lg max-w-lg">
             Professional grooming services designed for men who value quality
             and precision.
           </p>
@@ -27,16 +27,14 @@ export default function Hero() {
           <div className="mt-8 flex gap-4">
             <a
               href="#contact"
-              className="px-6 py-3 rounded-xl bg-black text-white
-              text-sm font-medium hover:opacity-90 transition"
+              className="px-6 py-3 rounded-xl bg-black text-white text-sm font-medium hover:scale-105 hover:shadow-lg transition-transform duration-300"
             >
               Book appointment
             </a>
 
             <a
               href="#services"
-              className="px-6 py-3 rounded-xl border border-black/20
-              text-sm font-medium text-black hover:border-black/40 transition"
+              className="px-6 py-3 rounded-xl border border-black/20 text-sm font-medium text-black hover:scale-105 hover:shadow-lg transition-transform duration-300"
             >
               View services
             </a>
